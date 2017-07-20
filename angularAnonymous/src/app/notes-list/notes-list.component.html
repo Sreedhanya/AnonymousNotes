@@ -1,0 +1,11 @@
+<html>
+
+  <table>
+
+    <tr><th>Note</th><th>Created At</th><th>Updated At</th></tr>
+    <tr *ngFor= "let note of note_list">
+      <td>{{note.note}}</td>
+      <td>{{ note.createdAt}}</td>
+      <td>{{note.updatedAt}}</td>
+    </tr></table>
+    </html>
